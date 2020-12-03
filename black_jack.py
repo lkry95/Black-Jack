@@ -15,6 +15,14 @@ class Deal:
     def __init__(self, deck):
         self.deck = deck
 
+    # A function for creating player and dealers hands
+    # The player and dealer will get 2 cards initially
+
+    def deal_cards(self, cards):
+        dealer = [self.deck.pop(), self.deck.pop()]
+        player = [self.deck.pop(), self.deck.pop()]
+        return [dealer, player]
+
 
 
 
