@@ -12,7 +12,7 @@ class Deck:
         num = ['A', '2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K']
         for i in suit:
             for n in num:
-                result.append(i + n)
+                result.append((i + n))
 
         # The function will return a shuffled deck with 52 cards
         shuffle(result)
