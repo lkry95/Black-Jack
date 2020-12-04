@@ -29,19 +29,10 @@ class Deal:
     # The player and dealer will get 2 cards initially
 
 
-    def deal_cards(self, cards):
-        dealer = [self.deck.pop(), self.deck.pop()]
-        player = [self.deck.pop(), self.deck.pop()]
-        return [dealer, player]
-
     def deal_cards(self, deck):
         dealer = [self.deck.pop(), self.deck.pop()]
         player = [self.deck.pop(), self.deck.pop()]
-        print([dealer, player,deck])
-
-
-
-
+        return [dealer, player, deck]
 
 
 class Calculation:
@@ -55,21 +46,12 @@ class Calculation:
         ace = 0
         for i in my_cards:
             if i[1] in ['T', 'J', 'Q', 'K']:
-
-                point = point + 10
-            elif i[1] in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
-                point = point + int(i[1])
-            else:
-                point = point + 11
-                ace = ace + 1
-
                 point += 10
             elif i[1] in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
                 point += int(i[1])
             else:
                 point += 11
                 ace += 1
-
 
         if ace > 0:
             for i in range(0, ace):
