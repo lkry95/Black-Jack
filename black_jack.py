@@ -28,10 +28,17 @@ class Deal:
     # A function for creating player and dealers hands
     # The player and dealer will get 2 cards initially
 
+<<<<<<< HEAD
     def deal_cards(self, cards):
         dealer = [self.deck.pop(), self.deck.pop()]
         player = [self.deck.pop(), self.deck.pop()]
         return [dealer, player]
+=======
+    def deal_cards(self, deck):
+        dealer = [self.deck.pop(), self.deck.pop()]
+        player = [self.deck.pop(), self.deck.pop()]
+        print([dealer, player,deck])
+>>>>>>> Luke
 
 
 
@@ -48,18 +55,31 @@ class Calculation:
         ace = 0
         for i in my_cards:
             if i[1] in ['T', 'J', 'Q', 'K']:
+<<<<<<< HEAD
                 point = point + 10
             elif i[1] in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
                 point = point + int(i[1])
             else:
                 point = point + 11
                 ace = ace + 1
+=======
+                point += 10
+            elif i[1] in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
+                point += int(i[1])
+            else:
+                point += 11
+                ace += 1
+>>>>>>> Luke
 
         if ace > 0:
             for i in range(0, ace):
 
                 if point > 21:
+<<<<<<< HEAD
                     point = point - 10
+=======
+                    point -= 10
+>>>>>>> Luke
 
         return point
 
@@ -70,7 +90,14 @@ class Player:
         pass
 
     def player_hit(self, my_cards, deck):
+<<<<<<< HEAD
 
+=======
+        my_cards.append(deck.pop())
+        calculate = Calculation()
+        points = calculate.point_calc(my_cards)
+        return (points,my_cards,deck)
+>>>>>>> Luke
 
 
 class Dealer(Player):
@@ -78,6 +105,27 @@ class Dealer(Player):
     def __init__(self):
         pass
 
+<<<<<<< HEAD
+=======
+    def dealer_hit(self, dealer_cards, deck):
+        calculate = Calculation
+        points = calculate.point_calc(dealer_cards)
+        results = [dealer_cards, deck, points]
+
+        while points <= 17:
+            results = super().player_hit(dealer_cards, deck)
+            points = results[2]
+
+
+        return results
+
+
+if __name__ == "__main__":
+
+
+
+
+>>>>>>> Luke
 
 
 
