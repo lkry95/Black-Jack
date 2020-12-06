@@ -23,7 +23,7 @@ def gameplay():
     print("This is your hand: ")
     print(player_hand)
     print(f'Your points are:  {player_points}')
-    print(f"These are the dealer's cards: {dealer_hand[0], dealer_hand[1]}  and another hidden card")
+    print(f"These are the dealer's cards: {dealer_hand[0]}  and another hidden card")
 
     game_continue = True
 
