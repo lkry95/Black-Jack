@@ -89,23 +89,19 @@ class Dealer(Player):
 
 
     def dealer_hit(self, dealer_cards, deck):
-        calculate = Calculation
+        calculate = Calculation()
         points = calculate.point_calc(dealer_cards)
-        results = [dealer_cards, deck, points]
-
-        while points <= 17:
+        # results = [dealer_cards, deck, points]
+        results = [points, dealer_cards, deck]
+        while results[0] < 17:
             results = super().player_hit(dealer_cards, deck)
-            points = results[2]
-
+            points = results[0]
+            # print(results)
 
         return results
 
 
-if __name__ == "__main__":
-
-
-
-
+# if __name__ == "__main__":
 
 
 
