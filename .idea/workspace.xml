@@ -19,11 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ef663b1-0569-4fd4-a103-96a79c14370c" name="Default Changelist" comment="" />
+    <list default="true" id="1ef663b1-0569-4fd4-a103-96a79c14370c" name="Default Changelist" comment="&quot;github trouble&quot;">
+      <change beforePath="$PROJECT_DIR$/black_jack_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/black_jack_game.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -136,24 +141,28 @@
     <option name="LAST_COMMIT_MESSAGE" value="Finished gameplay function and added game_loop function." />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1781" height="265" key="GridCell.Tab.0.bottom" timestamp="1607280202812">
-      <screen x="-267" y="-1057" width="1920" height="992" />
+    <state width="709" height="245" key="GridCell.Tab.0.bottom" timestamp="1607281262249">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="709" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607281262249" />
     <state width="1781" height="214" key="GridCell.Tab.0.bottom/0.23.1440.827/-267.-1057.1920.1057@-267.-1057.1920.1057" timestamp="1607270081053" />
     <state width="1781" height="265" key="GridCell.Tab.0.bottom/0.23.1440.877/-267.-1057.1920.992@-267.-1057.1920.992" timestamp="1607280202812" />
-    <state width="1781" height="265" key="GridCell.Tab.0.center" timestamp="1607280202810">
-      <screen x="-267" y="-1057" width="1920" height="992" />
+    <state width="709" height="245" key="GridCell.Tab.0.center" timestamp="1607281262248">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="709" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607281262248" />
     <state width="1781" height="214" key="GridCell.Tab.0.center/0.23.1440.827/-267.-1057.1920.1057@-267.-1057.1920.1057" timestamp="1607270081052" />
     <state width="1781" height="265" key="GridCell.Tab.0.center/0.23.1440.877/-267.-1057.1920.992@-267.-1057.1920.992" timestamp="1607280202810" />
-    <state width="1781" height="265" key="GridCell.Tab.0.left" timestamp="1607280202809">
-      <screen x="-267" y="-1057" width="1920" height="992" />
+    <state width="709" height="245" key="GridCell.Tab.0.left" timestamp="1607281262247">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="709" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607281262247" />
     <state width="1781" height="214" key="GridCell.Tab.0.left/0.23.1440.827/-267.-1057.1920.1057@-267.-1057.1920.1057" timestamp="1607270081051" />
     <state width="1781" height="265" key="GridCell.Tab.0.left/0.23.1440.877/-267.-1057.1920.992@-267.-1057.1920.992" timestamp="1607280202809" />
-    <state width="1781" height="265" key="GridCell.Tab.0.right" timestamp="1607280202811">
-      <screen x="-267" y="-1057" width="1920" height="992" />
+    <state width="709" height="245" key="GridCell.Tab.0.right" timestamp="1607281262249">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="709" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607281262249" />
     <state width="1781" height="214" key="GridCell.Tab.0.right/0.23.1440.827/-267.-1057.1920.1057@-267.-1057.1920.1057" timestamp="1607270081052" />
     <state width="1781" height="265" key="GridCell.Tab.0.right/0.23.1440.877/-267.-1057.1920.992@-267.-1057.1920.992" timestamp="1607280202811" />
     <state width="1781" height="265" key="GridCell.Tab.1.bottom" timestamp="1607280202813">
