@@ -44,7 +44,7 @@ class Calculation:
         for i in my_cards:
             if i[1] in ['T', 'J', 'Q', 'K']:
                 point += 10
-            elif i[1] in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
+            elif i[1] in ['2', '3', '4', '5', '6', '7', '8', '9']:
                 point += int(i[1])
             else:
                 if point <= 10:
