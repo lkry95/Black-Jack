@@ -79,7 +79,7 @@ def game_loop():
     play_again = True
     while play_again:
         gameplay()
-        yes_or_no = input("Do you want to play again? ")
+        yes_or_no = input("Would you like to play again? ")
         if yes_or_no == 'n':
             play_again = False
 
